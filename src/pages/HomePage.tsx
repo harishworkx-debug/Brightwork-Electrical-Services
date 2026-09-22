@@ -176,7 +176,7 @@ export default function HomePage() {
                   <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#ff9500] transition-colors">{s.shortTitle}</h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">{s.intro}</p>
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-[#ff9500] group-hover:gap-2 transition-all">
-                    Learn More <ArrowRight className="h-4 w-4" />
+                    {s.shortTitle} <ArrowRight className="h-4 w-4" />
                   </span>
                 </Link>
               );
@@ -383,7 +383,7 @@ export default function HomePage() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl min-h-[450px] bg-gray-100">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122910.72984244277!2d-105.097563!3d39.739235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b80aa23646c23%3A0xa69906a29b5c5c0!2sDenver%2C%20CO!5e0!3m2!1sen!2sus!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390968.8763122683!2d-105.33937202579486!3d40.04318373662343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c0ffce44b077b%3A0xb9e506bda2569876!2sBrightwork%20Electrical%20Services!5e0!3m2!1sen!2sin!4v1790055404720!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '450px' }}

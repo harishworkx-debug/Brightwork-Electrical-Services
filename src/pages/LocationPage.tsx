@@ -104,7 +104,7 @@ export default function LocationPage() {
                   <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#ff9500] transition-colors">{s.shortTitle}</h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">Available in {location.city}, CO</p>
                   <span className="inline-flex items-center gap-1 text-sm font-semibold text-[#ff9500] group-hover:gap-2 transition-all">
-                    Learn More <ArrowRight className="h-4 w-4" />
+                    {s.shortTitle} <ArrowRight className="h-4 w-4" />
                   </span>
                 </Link>
               );

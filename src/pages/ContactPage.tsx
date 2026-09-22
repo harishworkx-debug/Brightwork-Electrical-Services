@@ -86,7 +86,7 @@ export default function ContactPage() {
 
             <div className="rounded-2xl overflow-hidden shadow-2xl min-h-[500px] bg-gray-100">
               <iframe
-                src="https://maps.app.goo.gl/GciYUzYX7PTppL5m6"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390968.8763122683!2d-105.33937202579486!3d40.04318373662343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c0ffce44b077b%3A0xb9e506bda2569876!2sBrightwork%20Electrical%20Services!5e0!3m2!1sen!2sin!4v1790055404720!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '500px' }}

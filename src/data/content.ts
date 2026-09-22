@@ -7,66 +7,33 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'Michael R.',
+    name: 'Lee Melvin',
     location: 'Denver, CO',
-    text:
-      'Brightwork Electrical Services upgraded our electrical panel and the whole process was smooth from start to finish. The electrician showed up on time, explained everything clearly, and the work was clean and professional. Highly recommend.',
+    text: 'Wiring for a 50A L2 charger for my EV. Neal is easy to work with and I am very happy with the result. Will contact Brightwork again the next time I need any electrical work.',
     rating: 5,
   },
   {
-    name: 'Sarah K.',
-    location: 'Aurora, CO',
-    text:
-      'We had several dead outlets in our kitchen and a breaker that kept tripping. Brightwork came out the same day, found the problem quickly, and fixed it at a fair price. I felt comfortable having them in our home.',
+    name: 'M G',
+    location: 'Denver, CO',
+    text: 'Neal is a great electrician and a good man. He does excellent work and is very reasonably priced. Neal wired my entire basement finish, to include adding a subpanel. He is very responsive and trustworthy. Give him a call; you won\'t be disappointed!',
     rating: 5,
   },
   {
-    name: 'David L.',
-    location: 'Lakewood, CO',
-    text:
-      'Installed an EV charger in our garage. They assessed our panel, gave us a clear quote, and completed the installation in a few hours. The work was neat and the charger works perfectly. Great experience overall.',
+    name: 'Stefanie Clarke',
+    location: 'Denver, CO',
+    text: 'If you\'re looking for an electrician who is responsive, detail-oriented, thorough, and a pleasure to work with, look no further than Neal at Brightwork Electrical. He\'s always reasonably priced and so efficient, we couldn\'t be happier with the work he\'s done for us. He has done a number of projects, and most recently installed an EV charger in our garage. He\'s punctual, neat, and gets the job done right. Couldn\'t recommend him more highly!',
     rating: 5,
   },
   {
-    name: 'Jennifer M.',
-    location: 'Littleton, CO',
-    text:
-      'We bought a 1950s home in Littleton and needed a full electrical inspection. Brightwork did a thorough job, found some issues with the old wiring, and gave us honest recommendations. No upselling, just straightforward advice.',
+    name: 'Sherry',
+    location: 'Denver, CO',
+    text: 'Neal was fantastic! He communicated very well on his timeline and pricing. I have an older home that had very few outlets. Neal put in new outlets both inside and outside. He was very professional and great to work with! He did about 6 hours of electrical work without ever shutting cutting off the power - which was useful as I was working from home. Great company and I will be using them again!',
     rating: 5,
   },
   {
-    name: 'Robert T.',
-    location: 'Highlands Ranch, CO',
-    text:
-      'Had recessed lighting installed throughout our living room and kitchen. The result looks fantastic and the electricians were careful to keep everything clean. They even helped us choose the right fixture type for our ceiling.',
-    rating: 5,
-  },
-  {
-    name: 'Amanda P.',
-    location: 'Englewood, CO',
-    text:
-      'Our ceiling fan started wobbling and making noise. Brightwork came out, found the box wasn\'t fan-rated, and installed a proper support. The fan is rock solid now. Professional and knowledgeable from start to finish.',
-    rating: 5,
-  },
-  {
-    name: 'James W.',
-    location: 'Centennial, CO',
-    text:
-      'Called them for a whole-house surge protector installation. Quick, affordable, and the electrician took the time to explain how it works. Peace of mind for our electronics and appliances during storm season.',
-    rating: 5,
-  },
-  {
-    name: 'Lisa H.',
-    location: 'Thornton, CO',
-    text:
-      'We had flickering lights in two rooms and couldn\'t figure out why. The electrician from Brightwork traced it to a loose neutral wire in the panel and fixed it. Problem solved in under an hour. Very impressed with the troubleshooting skills.',
-    rating: 5,
-  },
-  {
-    name: 'Kevin B.',
-    location: 'Arvada, CO',
-    text:
-      'Installed a backup generator transfer switch for our home. The work was clean, passed inspection with no issues, and the electrician walked us through how to use it. Exactly the professional service we needed.',
+    name: 'Teri McCafferty',
+    location: 'Denver, CO',
+    text: 'I called Brightwork Electrical Services on the recommendation of a friend for some electrical work at my residence. Neal was on time, friendly, and reasonably priced. He completed the job and left everything clean and in order. I absolutely recommend Brightwork Electrical Services and will not hesitate to call them in the future.',
     rating: 5,
   },
 ];
