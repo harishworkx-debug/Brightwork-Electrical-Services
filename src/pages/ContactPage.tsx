@@ -8,7 +8,7 @@ export default function ContactPage() {
     <>
       <SEO
         title="Contact Us | Brightwork Electrical Services | Denver, CO"
-        description="Contact Brightwork Electrical Services for electrical service in Denver, CO. Call 303-621-5710 to speak with an electrician or request electrical service."
+        description="Contact Brightwork Electrical Services for electrical service in Denver, CO. Call 303-879-1513 to speak with an electrician or request electrical service."
         canonical={`${site.domain}/contact`}
         schema={[localBusinessSchema]}
       />

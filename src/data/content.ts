@@ -50,7 +50,7 @@ export const homeFAQs: HomeFAQ[] = [
   },
   {
     q: 'How quickly can you come to my home in Denver?',
-    a: 'We offer same-day and next-day appointments for most service calls. For electrical emergencies — burning smells, sparking, power outages — we prioritize getting an electrician to your home as quickly as possible. Call 303-621-5710 to schedule.',
+    a: 'We offer same-day and next-day appointments for most service calls. For electrical emergencies — burning smells, sparking, power outages — we prioritize getting an electrician to your home as quickly as possible. Call 303-879-1513 to schedule.',
   },
   {
     q: 'Do you offer free estimates?',

@@ -8,7 +8,7 @@ export default function NotFoundPage() {
     <>
       <SEO
         title="Page Not Found | Brightwork Electrical Services"
-        description="The page you're looking for doesn't exist. Browse our electrical services in Denver, CO or call us at 303-621-5710."
+        description="The page you're looking for doesn't exist. Browse our electrical services in Denver, CO or call us at 303-879-1513."
         canonical={`${site.domain}/404`}
       />
       <section className="bg-[#0a0e1a] min-h-[70vh] flex items-center">
