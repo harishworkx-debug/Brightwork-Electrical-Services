@@ -1,8 +1,8 @@
 export const site = {
   name: 'Brightwork Electrical Services',
   shortName: 'Brightwork Electrical',
-  phone: '303-621-5710',
-  phoneHref: 'tel:+13036215710',
+  phone: '303-879-1513',
+  phoneHref: 'tel:+13038791513',
   domain: 'https://www.brightworkelectrical.com',
   email: 'service@brightworkelectrical.com',
   address: {

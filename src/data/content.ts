@@ -36,6 +36,72 @@ export const testimonials: Testimonial[] = [
     text: 'I called Brightwork Electrical Services on the recommendation of a friend for some electrical work at my residence. Neal was on time, friendly, and reasonably priced. He completed the job and left everything clean and in order. I absolutely recommend Brightwork Electrical Services and will not hesitate to call them in the future.',
     rating: 5,
   },
+  {
+    name: 'Mia Rodriguez',
+    location: 'Denver, CO',
+    text: 'Neal at Brightwork Electrical did amazing work at our home. We Initially hired him because our attic needed power wired so that we could plug in our radon fan. He was communicative, prompt, and offered fair and competitive pricing. Quickly thereafter, we hired him for an additional job to add wiring to all our bedrooms to install lights and ceiling fans, as well as move a dining room light fixture that was placed in a weird location when the home was built.\n\nHe did a thorough job, not quitting until each job was done right. We will definitely hire him again for any future electrical work we need and highly recommend him to anyone looking for a reliable electrician!',
+    rating: 5,
+  },
+  {
+    name: 'Patrick Salisbury',
+    location: 'Denver, CO',
+    text: 'Neal did a variety of electrical work for us including installing a subpanel and running new circuits. This was quite a large task due to the routing of the wires through difficult places. He did an outstanding job and when it took longer than initially expected due to unanticipated challenges, he showed up the next day and finished everything for the original estimate.\n\nHe also was very helpful in helping us to understand what we needed and what we did not need. Other electricians tried to sell additional work that was unnecessary and pointlessly expensive. Neal helped us understand exactly what we needed to get done and did it at a very reasonable price and at a very high-quality.\n\nWe are very happy with Neals work, and recommend him highly.',
+    rating: 5,
+  },
+  {
+    name: 'neha awasthi',
+    location: 'Denver, CO',
+    text: 'Neal is very professional. He installed ceiling fans in 2 rooms , wall scones outside garage,  He has done an amazing job at good value, the fans are working great. Definitely recommend Brightwork Electrical Services.',
+    rating: 5,
+  },
+  {
+    name: 'Weiss Dunn',
+    location: 'Denver, CO',
+    text: 'Once again, it was a pleasure working with Neal. Top notch expertise, wonderful communication, and he’s an all around good man. Go with Brightworks and whatever you need to have fixed or improved with electrical work will be fine better than you expected.',
+    rating: 5,
+  },
+  {
+    name: 'Megan Fisher',
+    location: 'Denver, CO',
+    text: 'Neal installed multiple new light fixtures, dimmers, and ceiling fan for us. He was communicative and knowledgeable. Would recommend. Lights are working great!',
+    rating: 5,
+  },
+  {
+    name: 'Chris B',
+    location: 'Denver, CO',
+    text: 'Neal was great! He was polite and thorough in completing the work and I will definitely call if I have any additional electrical issues.',
+    rating: 5,
+  },
+  {
+    name: 'Jennifer Zapp',
+    location: 'Denver, CO',
+    text: 'I am hesitant to provide a negative review as I am genuinely concerned that something my have happened to Neal, however I was completely ghosted. If something happened, I would be happy to take this review down if the circumstance, of no contact, was out of his control. If not, then I would hesitate not to share my experience. We really needed him to show up yesterday.\n\nI engaged with Neal on Thumbtack on May 26th and things were fine. On June 6th, I inquired if he could come out on the 10th. We touched base on the 7th, 8th and 9th confirming he would be here. On the 9th I had asked for him to give me a call so that we could be sure to have everything he needed prepped. There was no response but I figured he would just show up and handle things for the following day. The 10th rolled around and he didn’t show up at 9. I reached out to him close to 11 am and tried calling him. I left a message to find out if he was ok and if he was coming. Today is the 11th and still no word.',
+    rating: 1,
+  },
+  {
+    name: 'Kristin Miller',
+    location: 'Denver, CO',
+    text: 'Neal was communicative, helpful, on time, and efficient. I will absolutely use his services again In the future.',
+    rating: 5,
+  },
+  {
+    name: 'John Wilber',
+    location: 'Denver, CO',
+    text: 'Friendly, professional, and knowledgeable.',
+    rating: 5,
+  },
+  {
+    name: 'Isha Hamal',
+    location: 'Denver, CO',
+    text: 'Great service. Responsiveness, Punctuality, Professionalism in Fan installation and other installations.',
+    rating: 5,
+  },
+  {
+    name: 'Tom Roling',
+    location: 'Denver, CO',
+    text: 'Great service. Punctuality, Quality, Professionalism in Electrical outlet & switch repair, Electrical power restoration.',
+    rating: 5,
+  },
 ];
 
 export interface HomeFAQ {
@@ -50,7 +116,7 @@ export const homeFAQs: HomeFAQ[] = [
   },
   {
     q: 'How quickly can you come to my home in Denver?',
-    a: 'We offer same-day and next-day appointments for most service calls. For electrical emergencies — burning smells, sparking, power outages — we prioritize getting an electrician to your home as quickly as possible. Call 303-621-5710 to schedule.',
+    a: 'We offer same-day and next-day appointments for most service calls. For electrical emergencies — burning smells, sparking, power outages — we prioritize getting an electrician to your home as quickly as possible. Call 303-879-1513 to schedule.',
   },
   {
     q: 'Do you offer free estimates?',

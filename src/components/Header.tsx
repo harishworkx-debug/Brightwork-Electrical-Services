@@ -113,6 +113,12 @@ export default function Header() {
                 About
               </Link>
               <Link
+                to="/reviews"
+                className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
+              >
+                Reviews
+              </Link>
+              <Link
                 to="/contact"
                 className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
               >
@@ -173,6 +179,7 @@ export default function Header() {
               </div>
 
               <Link to="/about" className="block px-3 py-2.5 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg font-medium mt-3">About</Link>
+              <Link to="/reviews" className="block px-3 py-2.5 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg font-medium">Reviews</Link>
               <Link to="/contact" className="block px-3 py-2.5 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg font-medium">Contact</Link>
 
               <a

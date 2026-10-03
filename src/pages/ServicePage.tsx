@@ -150,8 +150,45 @@ export default function ServicePage() {
         </div>
       </section>
 
+      {/* Contextual Related Services — prevents keyword cannibalization */}
+      {service.relatedServices.length > 0 && (
+        <section className="py-16 lg:py-20 bg-white border-t border-gray-100">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <p className="text-sm font-semibold text-[#ff9500] uppercase tracking-wider mb-3">Related Services</p>
+              <h2 className="text-2xl lg:text-3xl font-bold text-gray-900">You Might Also Need</h2>
+            </div>
+            <div className="space-y-3">
+              {service.relatedServices.map((rs) => {
+                const relatedService = services.find((s) => s.slug === rs.slug);
+                if (!relatedService) return null;
+                const Icon = iconMap[relatedService.icon] || Zap;
+                return (
+                  <Link
+                    key={rs.slug}
+                    to={`/${rs.slug}`}
+                    className="flex items-start gap-4 rounded-xl border border-gray-200 p-5 hover:border-[#ffd700]/40 hover:shadow-lg transition-all group"
+                  >
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#0a0e1a] shrink-0 mt-0.5 group-hover:bg-gradient-to-br group-hover:from-[#ffd700] group-hover:to-[#ff9500] transition-all">
+                      <Icon className="h-5 w-5 text-[#ffd700] group-hover:text-[#0a0e1a] transition-colors" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-bold text-gray-900 group-hover:text-[#ff9500] transition-colors">
+                        {relatedService.shortTitle}
+                      </h3>
+                      <p className="text-sm text-gray-600 leading-relaxed mt-1">{rs.context}</p>
+                    </div>
+                    <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-[#ff9500] transition-colors shrink-0 mt-1" />
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Other Services */}
-      <section className="py-20 bg-white border-t border-gray-100">
+      <section className="py-20 bg-gray-50 border-t border-gray-100">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900">Other Electrical Services in Denver</h2>

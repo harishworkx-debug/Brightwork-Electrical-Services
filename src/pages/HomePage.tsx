@@ -54,7 +54,7 @@ export default function HomePage() {
     <>
       <SEO
         title="Electrician Denver, CO | Brightwork Electrical Services"
-        description="Trusted electrician in Denver, CO. Residential electrical repair, panel upgrades, wiring, lighting, EV chargers, and more. Licensed, insured, and ready to help. Call 303-621-5710."
+        description="Trusted electrician in Denver, CO. Residential electrical repair, panel upgrades, wiring, lighting, EV chargers, and more. Licensed, insured, and ready to help. Call 303-879-1513."
         canonical={site.domain}
         schema={[localBusinessSchema, faqSchema(homeFAQs)]}
       />
@@ -192,7 +192,7 @@ export default function HomePage() {
           <div className="text-center max-w-2xl mx-auto mb-14">
             <p className="text-sm font-semibold text-[#ffd700] uppercase tracking-wider mb-3">We Can Help</p>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Electrical Problems We Solve</h2>
-            <p className="text-gray-400 text-lg">If you're experiencing any of these issues, call us at 303-621-5710.</p>
+            <p className="text-gray-400 text-lg">If you're experiencing any of these issues, call us at {site.phone}.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {problemsSolved.map((p) => (
@@ -294,16 +294,16 @@ export default function HomePage() {
             <p className="text-gray-400 text-lg">Our customers' feedback speaks to the quality of our work and service.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {testimonials.map((t) => (
+            {testimonials.slice(0, 6).map((t) => (
               <div key={t.name} className="rounded-2xl bg-[#111827] border border-gray-800 p-6 hover:border-[#ffd700]/30 transition-colors">
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: t.rating }).map((_, i) => (
                     <Star key={i} className="h-4 w-4 text-[#ffd700]" fill="currentColor" />
                   ))}
                 </div>
-                <p className="text-gray-300 leading-relaxed text-sm mb-5">"{t.text}"</p>
-                <div className="flex items-center gap-3 pt-4 border-t border-gray-800">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-[#ffd700] to-[#ff9500] font-bold text-[#0a0e1a]">
+                <p className="text-gray-300 leading-relaxed text-sm mb-5 line-clamp-4">"{t.text}"</p>
+                <div className="flex items-center gap-3 pt-4 border-t border-gray-800 mt-auto">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-[#ffd700] to-[#ff9500] font-bold text-[#0a0e1a] shrink-0">
                     {t.name.charAt(0)}
                   </div>
                   <div>
@@ -313,6 +313,12 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link to="/reviews" className="inline-flex items-center gap-2 rounded-xl border-2 border-gray-600 px-7 py-3 text-sm font-bold text-white hover:border-[#ffd700] hover:text-[#ffd700] transition-colors">
+              Read All 16 Reviews
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>
