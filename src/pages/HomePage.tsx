@@ -192,7 +192,7 @@ export default function HomePage() {
           <div className="text-center max-w-2xl mx-auto mb-14">
             <p className="text-sm font-semibold text-[#ffd700] uppercase tracking-wider mb-3">We Can Help</p>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Electrical Problems We Solve</h2>
-            <p className="text-gray-400 text-lg">If you're experiencing any of these issues, call us at {site.phone}.</p>
+            <p className="text-gray-400 text-lg">If you're experiencing any of these issues, call us at 303-621-5710.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {problemsSolved.map((p) => (

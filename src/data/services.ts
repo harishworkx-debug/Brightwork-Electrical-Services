@@ -164,7 +164,7 @@ export const services: Service[] = [
     h1: 'Electrical Repair in Denver, CO',
     metaTitle: 'Electrical Repair Denver, CO | Same-Day Fixes for Broken Electrical | Brightwork',
     metaDescription:
-      'Same-day electrical repair in Denver, CO. We fix known electrical problems — broken outlets, tripped breakers, faulty wiring, warm panels. Fast response, lasting repairs. Call 303-879-1513.',
+      'Need electrical repair in Denver, CO? Brightwork Electrical Services fixes outlets, switches, breakers, wiring, and more. Call 303-621-5710 for fast, reliable electrical repairs.',
     heroImage:
       'https://images.pexels.com/photos/27928761/pexels-photo-27928761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician using a drill to repair electrical equipment indoors',
@@ -1466,7 +1466,7 @@ export const services: Service[] = [
     h1: 'Electrical Troubleshooting in Denver, CO',
     metaTitle: 'Electrical Troubleshooting Denver, CO | Diagnose Hidden Electrical Problems | Brightwork',
     metaDescription:
-      'Expert electrical troubleshooting in Denver, CO. We diagnose intermittent, hidden, and hard-to-find electrical problems using thermal imaging, circuit tracing, and professional diagnostic tools. Call 303-879-1513.',
+      'Electrical troubleshooting in Denver, CO. We find and fix flickering lights, tripping breakers, power outages, and other electrical problems. Call Brightwork Electrical Services at 303-621-5710.',
     heroImage:
       'https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician using a multimeter to fix industrial control panel wiring',
