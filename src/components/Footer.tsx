@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#070a14] text-gray-400">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           <div>
             <Link to="/" className="flex items-center gap-2 mb-6">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[#ffd700] to-[#ff9500]">
@@ -69,7 +69,20 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">Service Areas</h3>
             <ul className="space-y-2.5">
-              {locations.slice(0, 8).map((l) => (
+              {locations.slice(0, 7).map((l) => (
+                <li key={l.slug}>
+                  <Link to={`/${l.slug}`} className="text-sm hover:text-[#ffd700] transition-colors">
+                    {l.city}, {l.state}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">More Areas</h3>
+            <ul className="space-y-2.5">
+              {locations.slice(7).map((l) => (
                 <li key={l.slug}>
                   <Link to={`/${l.slug}`} className="text-sm hover:text-[#ffd700] transition-colors">
                     {l.city}, {l.state}

@@ -487,7 +487,7 @@ export const services: Service[] = [
       },
       {
         q: 'Do you need to cut into my walls?',
-        b: 'In most cases, we can access wiring through attics, crawlspaces, and existing openings. Some wall access may be needed depending on your home\'s construction. We repair any access holes we create.',
+        a: 'In most cases, we can access wiring through attics, crawlspaces, and existing openings. Some wall access may be needed depending on your home\'s construction. We repair any access holes we create.',
       },
       {
         q: 'Is rewiring covered by homeowners insurance?',
