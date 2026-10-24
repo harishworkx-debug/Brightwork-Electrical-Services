@@ -382,7 +382,33 @@ export const locations: LocationData[] = [
       'Palo Park',
       'North Boulder',
     ],
-    zipCodes: ['80301', '80302', '80303', '80304', '80305'],
+  },
+  {
+    slug: 'electrician-frederick-co',
+    city: 'Frederick',
+    state: 'CO',
+    fullName: 'Frederick, Colorado',
+    metaTitle: 'Electrician Frederick, CO | Brightwork Electrical Services',
+    metaDescription:
+      'Electrician in Frederick, CO. Brightwork Electrical Services provides residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers. Call 303-879-1513.',
+    h1: 'Electrician in Frederick, CO',
+    intro:
+      'Brightwork Electrical Services provides professional residential electrical services to homeowners throughout Frederick, Firestone, Dacono, and Northern Colorado. From troubleshooting and repairs to panel upgrades and EV chargers, we deliver dependable, code-compliant electrical work.',
+    description: [
+      'Frederick and the Carbon Valley area are among Northern Colorado\'s fastest-growing communities, featuring a mix of established homes and modern residential developments. Whether you live in downtown Frederick, Wyndham Hill, or nearby Firestone, our electricians provide prompt, professional service.',
+      'As a licensed Colorado electrical contractor with roots in the Frederick community, we take pride in serving our local neighbors. From simple breaker and outlet repairs to full 200-amp service panel replacements, we complete every project to National Electrical Code standards.',
+      'Whether you are installing a Level 2 EV charging station, finishing a basement, or need emergency electrical troubleshooting, call 303-879-1513 to schedule service at your Frederick home.',
+    ],
+    neighborhoods: [
+      'Wyndham Hill',
+      'Downtown Frederick',
+      'Eagle Valley',
+      'Country Mill',
+      'Booth Farms',
+      'Firestone',
+      'Dacono',
+    ],
+    zipCodes: ['80530', '80504', '80520'],
   },
 ];
 

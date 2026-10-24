@@ -28,6 +28,7 @@ export const site = {
 
 export const serviceAreas = [
   'Denver, CO',
+  'Frederick, CO',
   'Aurora, CO',
   'Lakewood, CO',
   'Littleton, CO',

@@ -68,10 +68,10 @@ export default function Footer() {
 
           <div>
             <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">Service Areas</h3>
-            <ul className="space-y-2.5">
-              {locations.slice(0, 8).map((l) => (
+            <ul className="grid grid-cols-2 gap-x-3 gap-y-2">
+              {locations.map((l) => (
                 <li key={l.slug}>
-                  <Link to={`/${l.slug}`} className="text-sm hover:text-[#ffd700] transition-colors">
+                  <Link to={`/${l.slug}`} className="text-xs hover:text-[#ffd700] transition-colors">
                     {l.city}, {l.state}
                   </Link>
                 </li>
@@ -94,8 +94,9 @@ export default function Footer() {
             © {new Date().getFullYear()} {site.name}. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link to="/contact" className="text-xs text-gray-500 hover:text-[#ffd700] transition-colors">Contact</Link>
+            <Link to="/reviews" className="text-xs text-gray-500 hover:text-[#ffd700] transition-colors">Reviews</Link>
             <Link to="/about" className="text-xs text-gray-500 hover:text-[#ffd700] transition-colors">About</Link>
+            <Link to="/contact" className="text-xs text-gray-500 hover:text-[#ffd700] transition-colors">Contact</Link>
           </div>
         </div>
       </div>
