@@ -3,6 +3,12 @@ export interface ServiceFAQ {
   a: string;
 }
 
+export interface RelatedService {
+  slug: string;
+  /** Why this service is related — displayed as contextual link text */
+  context: string;
+}
+
 export interface Service {
   slug: string;
   title: string;
@@ -14,12 +20,18 @@ export interface Service {
   heroAlt: string;
   intro: string;
   icon: string;
+  /** The ONE primary keyword this page targets — no other page should target this */
+  primaryKeyword: string;
+  /** The specific search intent this page serves — keeps content focused */
+  searchIntent: string;
   overview: string[];
   benefits: { title: string; description: string }[];
   process: { title: string; description: string }[];
   details: { heading: string; body: string }[];
   faqs: ServiceFAQ[];
   galleryImages: { url: string; alt: string }[];
+  /** Contextual links to related services — prevents cannibalization by directing users */
+  relatedServices: RelatedService[];
 }
 
 export const services: Service[] = [
@@ -28,15 +40,17 @@ export const services: Service[] = [
     title: 'Residential Electrician Denver CO',
     shortTitle: 'Residential Electrician',
     h1: 'Residential Electrician in Denver, CO',
-    metaTitle: 'Residential Electrician Denver, CO | Brightwork Electrical Services',
+    metaTitle: 'Residential Electrician Denver, CO | Licensed Home Electrician | Brightwork',
     metaDescription:
-      'Trusted residential electricians in Denver, CO. From wiring and panel upgrades to lighting and troubleshooting — Brightwork Electrical Services handles every home electrical need.',
+      'Licensed residential electrician in Denver, CO. Full-service home electrical contractor for Denver homeowners — new installations, upgrades, code compliance, and whole-home projects. Call 303-879-1513.',
     heroImage:
       'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Residential electrician working on a circuit breaker panel with colorful wires',
     icon: 'Home',
+    primaryKeyword: 'residential electrician Denver',
+    searchIntent: 'Homeowner looking for a general residential electrician — broad intent, wants to know full scope of services before deciding what they need',
     intro:
-      'Your home depends on safe, reliable electrical systems every single day. Brightwork Electrical Services provides comprehensive residential electrical services throughout Denver, CO — from small repairs to whole-home wiring projects.',
+      'Your home depends on safe, reliable electrical systems every single day. Brightwork Electrical Services is Denver\'s full-service residential electrical contractor — handling new installations, system upgrades, code compliance, and whole-home electrical projects for homeowners across the metro area.',
     overview: [
       'When you need a residential electrician in Denver, CO, you want a team that shows up on time, communicates clearly, and does the job right the first time. Brightwork Electrical Services is that team. We handle every aspect of home electrical work for Denver homeowners, from troubleshooting a flickering light to installing a complete electrical panel upgrade.',
       'Our residential electricians work on homes of every age and style across the Denver metro area — from historic bungalows in Wash Park to new builds in Stapleton and everywhere in between. We understand the unique electrical challenges that Colorado homes face, from aging knob-and-tube wiring in older neighborhoods to the increased demands of modern appliances and home charging stations.',
@@ -136,21 +150,29 @@ export const services: Service[] = [
         alt: 'Electrician installing a power outlet on a wall',
       },
     ],
+    relatedServices: [
+      { slug: 'electrical-repair-denver-co', context: 'Need a specific repair? See our dedicated electrical repair service for fast fixes.' },
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'If your panel is outdated, our panel upgrade service covers everything from assessment to inspection.' },
+      { slug: 'residential-wiring-denver-co', context: 'For rewiring projects or new construction wiring, see our specialized wiring service.' },
+      { slug: 'electrical-troubleshooting-denver-co', context: 'Can\'t figure out what\'s wrong? Our troubleshooting service uses diagnostic tools to find hidden problems.' },
+    ],
   },
   {
     slug: 'electrical-repair-denver-co',
     title: 'Electrical Repair Denver CO',
     shortTitle: 'Electrical Repair',
     h1: 'Electrical Repair in Denver, CO',
-    metaTitle: 'Electrical Repair Denver, CO | Fast, Reliable Fixes | Brightwork Electrical',
+    metaTitle: 'Electrical Repair Denver, CO | Same-Day Fixes for Broken Electrical | Brightwork',
     metaDescription:
-      'Need electrical repair in Denver, CO? Brightwork Electrical Services fixes outlets, switches, breakers, wiring, and more. Call 303-879-1513 for fast, reliable electrical repairs.',
+      'Need electrical repair in Denver, CO? Brightwork Electrical Services fixes outlets, switches, breakers, wiring, and more. Call 303-621-5710 for fast, reliable electrical repairs.',
     heroImage:
       'https://images.pexels.com/photos/27928761/pexels-photo-27928761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician using a drill to repair electrical equipment indoors',
     icon: 'Wrench',
+    primaryKeyword: 'electrical repair Denver',
+    searchIntent: 'Homeowner with a known broken electrical component — they know what\'s wrong and want it fixed fast',
     intro:
-      'When something in your home\'s electrical system stops working, you need a fast, reliable electrician in Denver, CO. Brightwork Electrical Services repairs every type of residential electrical problem — safely and correctly.',
+      'When something in your home\'s electrical system breaks, you need it fixed — not tomorrow, today. Brightwork Electrical Services provides same-day electrical repairs throughout Denver, CO. You tell us what\'s broken, we fix it right.',
     overview: [
       'Electrical problems don\'t wait for a convenient time. A dead outlet, a breaker that keeps tripping, a light switch that doesn\'t work — these are issues that disrupt your daily life and can signal deeper problems. Our Denver electrical repair team responds quickly, diagnoses the issue accurately, and makes lasting repairs that bring your home back to full function.',
       'We\'ve repaired electrical systems in homes across Denver, from minor fixes like replacing a worn-out outlet to major repairs like fixing damaged wiring behind walls. Our electricians use professional diagnostic tools to find the root cause, not just the symptom, so you don\'t end up with the same problem again next month.',
@@ -246,6 +268,12 @@ export const services: Service[] = [
         alt: 'Electrician adjusting an outlet indoors',
       },
     ],
+    relatedServices: [
+      { slug: 'electrical-troubleshooting-denver-co', context: 'Not sure what\'s wrong? Our troubleshooting service diagnoses hidden and intermittent electrical problems.' },
+      { slug: 'outlet-repair-denver-co', context: 'For outlet-specific problems — dead, loose, or faulty outlets — see our dedicated outlet repair page.' },
+      { slug: 'switch-repair-denver-co', context: 'Need a switch fixed or upgraded? Visit our switch repair and installation page.' },
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'If breakers keep tripping, you may need a panel upgrade rather than repeated repairs.' },
+    ],
   },
   {
     slug: 'electrical-panel-upgrade-denver-co',
@@ -259,6 +287,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/27928762/pexels-photo-27928762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Professional electrician using a drill on an indoor circuit breaker panel',
     icon: 'Zap',
+    primaryKeyword: 'electrical panel upgrade Denver',
+    searchIntent: 'Homeowner who knows they need a panel upgrade — breakers tripping, adding EV charger, or selling home and needs code compliance',
     intro:
       'An outdated or undersized electrical panel is more than an inconvenience — it\'s a safety hazard. Brightwork Electrical Services upgrades electrical panels throughout Denver, CO, giving your home the capacity and protection it needs.',
     overview: [
@@ -360,6 +390,12 @@ export const services: Service[] = [
         alt: 'Electrician working on circuit breaker panel with colorful wires',
       },
     ],
+    relatedServices: [
+      { slug: 'residential-electrician-denver-co', context: 'Need a full-service residential electrician? See our complete range of home electrical services.' },
+      { slug: 'electrical-repair-denver-co', context: 'For quick fixes to breakers, outlets, or switches, see our electrical repair service.' },
+      { slug: 'surge-protection-denver-co', context: 'Pairing your new panel with whole-home surge protection gives you maximum protection.' },
+      { slug: 'ev-charger-installation-denver-co', context: 'Many panel upgrades are done to add EV charger capacity — see our EV charger installation page.' },
+    ],
   },
   {
     slug: 'residential-wiring-denver-co',
@@ -373,6 +409,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/3614763/pexels-photo-3614763.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Close-up of exposed electric wiring being installed during home renovation',
     icon: 'Cable',
+    primaryKeyword: 'residential wiring Denver',
+    searchIntent: 'Homeowner who needs wiring work — rewiring old home, wiring new addition/basement, or replacing hazardous wiring types',
     intro:
       'Wiring is the foundation of your home\'s electrical system. Whether you need whole-home rewiring or new wiring for an addition, Brightwork Electrical Services provides expert residential wiring in Denver, CO.',
     overview: [
@@ -449,7 +487,7 @@ export const services: Service[] = [
       },
       {
         q: 'Do you need to cut into my walls?',
-        b: 'In most cases, we can access wiring through attics, crawlspaces, and existing openings. Some wall access may be needed depending on your home\'s construction. We repair any access holes we create.',
+        a: 'In most cases, we can access wiring through attics, crawlspaces, and existing openings. Some wall access may be needed depending on your home\'s construction. We repair any access holes we create.',
       },
       {
         q: 'Is rewiring covered by homeowners insurance?',
@@ -474,6 +512,12 @@ export const services: Service[] = [
         alt: 'Exposed electrical wiring in wall sockets ready for installation',
       },
     ],
+    relatedServices: [
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'Rewiring often pairs with a panel upgrade — see our panel upgrade service for details.' },
+      { slug: 'electrical-inspection-denver-co', context: 'Not sure if your home needs rewiring? Our electrical inspection can assess your wiring condition.' },
+      { slug: 'residential-electrician-denver-co', context: 'For our full range of residential electrical services, visit our main electrician page.' },
+      { slug: 'lighting-installation-denver-co', context: 'After rewiring, many homeowners upgrade lighting — see our lighting installation service.' },
+    ],
   },
   {
     slug: 'outlet-repair-denver-co',
@@ -487,6 +531,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/4981794/pexels-photo-4981794.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Gloved hands using a drill to install a power outlet on a wall',
     icon: 'Plug',
+    primaryKeyword: 'outlet repair Denver',
+    searchIntent: 'Homeowner with a specific outlet problem — dead outlet, loose outlet, GFCI won\'t reset, or needs new outlets installed',
     intro:
       'A dead or faulty outlet is more than an inconvenience — it can be a safety hazard. Brightwork Electrical Services repairs and replaces outlets throughout Denver, CO, including GFCI, AFCI, USB, and standard receptacles.',
     overview: [
@@ -584,6 +630,11 @@ export const services: Service[] = [
         alt: 'Close-up of electrical outlets',
       },
     ],
+    relatedServices: [
+      { slug: 'switch-repair-denver-co', context: 'Need a light switch fixed instead? See our switch repair and installation service.' },
+      { slug: 'electrical-repair-denver-co', context: 'For general electrical repairs beyond just outlets, see our full repair service.' },
+      { slug: 'residential-wiring-denver-co', context: 'If multiple outlets are failing, the underlying wiring may need attention — see our wiring service.' },
+    ],
   },
   {
     slug: 'switch-repair-denver-co',
@@ -597,6 +648,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/3650908/pexels-photo-3650908.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Close-up of a modern white light switch on a clean wall',
     icon: 'ToggleLeft',
+    primaryKeyword: 'light switch repair Denver',
+    searchIntent: 'Homeowner with a switch problem — buzzing dimmer, broken 3-way switch, or wants to upgrade to smart/dimmer switches',
     intro:
       'A light switch that doesn\'t work, flickers, or buzzes is more than annoying — it can indicate a wiring problem. Brightwork Electrical Services repairs and replaces every type of light switch in Denver, CO homes.',
     overview: [
@@ -694,6 +747,11 @@ export const services: Service[] = [
         alt: 'Opened electric switches during repair works',
       },
     ],
+    relatedServices: [
+      { slug: 'outlet-repair-denver-co', context: 'Need outlets fixed or replaced? See our outlet repair service for GFCI, USB, and standard outlets.' },
+      { slug: 'lighting-installation-denver-co', context: 'Upgrading switches often pairs with new lighting — see our lighting installation service.' },
+      { slug: 'electrical-repair-denver-co', context: 'For general electrical repairs beyond switches, visit our full repair service.' },
+    ],
   },
   {
     slug: 'lighting-installation-denver-co',
@@ -707,6 +765,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Spacious modern living room featuring elegant chandeliers and contemporary decor',
     icon: 'Lightbulb',
+    primaryKeyword: 'lighting installation Denver',
+    searchIntent: 'Homeowner who wants new lighting installed — recessed lighting, chandeliers, outdoor lighting, or LED conversion',
     intro:
       'The right lighting transforms your home. Brightwork Electrical Services installs indoor and outdoor lighting throughout Denver, CO — from recessed cans to chandeliers to landscape lighting.',
     overview: [
@@ -804,6 +864,11 @@ export const services: Service[] = [
         alt: 'Elegant ceiling lights casting warm glow in a modern interior',
       },
     ],
+    relatedServices: [
+      { slug: 'ceiling-fan-installation-denver-co', context: 'Need a ceiling fan instead of or in addition to lighting? See our fan installation service.' },
+      { slug: 'switch-repair-denver-co', context: 'New lighting often needs new switches or dimmers — see our switch installation service.' },
+      { slug: 'residential-electrician-denver-co', context: 'For a complete home electrical assessment, visit our residential electrician page.' },
+    ],
   },
   {
     slug: 'ceiling-fan-installation-denver-co',
@@ -817,6 +882,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/3990590/pexels-photo-3990590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Spacious living room with classic wooden entertainment center and ceiling fan',
     icon: 'Fan',
+    primaryKeyword: 'ceiling fan installation Denver',
+    searchIntent: 'Homeowner who wants a ceiling fan installed, replaced, or repaired — often converting a light fixture to a fan',
     intro:
       'Ceiling fans keep your Denver home comfortable and reduce energy costs. Brightwork Electrical Services installs, repairs, and replaces ceiling fans with proper support, wiring, and balance.',
     overview: [
@@ -914,6 +981,11 @@ export const services: Service[] = [
         alt: 'Empty bedroom with wooden floor and ceiling fan',
       },
     ],
+    relatedServices: [
+      { slug: 'lighting-installation-denver-co', context: 'Need lighting beyond the fan? See our lighting installation service for recessed, pendant, and outdoor lighting.' },
+      { slug: 'switch-repair-denver-co', context: 'Want a wall-mounted fan speed control or smart switch? See our switch installation service.' },
+      { slug: 'residential-electrician-denver-co', context: 'For a full range of home electrical services, visit our main electrician page.' },
+    ],
   },
   {
     slug: 'ev-charger-installation-denver-co',
@@ -927,6 +999,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/27355826/pexels-photo-27355826.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'A woman uses a home electric vehicle charger mounted on a brick wall',
     icon: 'BatteryCharging',
+    primaryKeyword: 'EV charger installation Denver',
+    searchIntent: 'EV owner or buyer who wants a Level 2 home charging station installed — focused on the charging hardware and electrical circuit',
     intro:
       'More Denver homeowners are driving electric vehicles — and a home EV charger makes ownership convenient and affordable. Brightwork Electrical Services installs Level 2 EV charging stations throughout Denver, CO.',
     overview: [
@@ -1028,6 +1102,11 @@ export const services: Service[] = [
         alt: 'Blue electric vehicle charging at home using wall-mounted unit',
       },
     ],
+    relatedServices: [
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'Your panel may need upgrading to support an EV charger \u2014 see our panel upgrade service.' },
+      { slug: 'surge-protection-denver-co', context: 'Protect your EV charger and vehicle with whole-home surge protection.' },
+      { slug: 'residential-electrician-denver-co', context: 'For complete home electrical services, visit our residential electrician page.' },
+    ],
   },
   {
     slug: 'electrical-inspection-denver-co',
@@ -1041,6 +1120,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/32497160/pexels-photo-32497160.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'An electrician examining a residential fuse box indoors',
     icon: 'Search',
+    primaryKeyword: 'electrical inspection Denver',
+    searchIntent: 'Home buyer, seller, or homeowner who wants a professional assessment of their electrical system\'s safety and code compliance',
     intro:
       'An electrical inspection gives you peace of mind about the safety and condition of your home\'s electrical system. Brightwork Electrical Services provides comprehensive electrical inspections in Denver, CO.',
     overview: [
@@ -1138,6 +1219,11 @@ export const services: Service[] = [
         alt: 'Field engineer checking voltage in wall plugs',
       },
     ],
+    relatedServices: [
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'If the inspection reveals an outdated panel, see our panel upgrade service.' },
+      { slug: 'residential-wiring-denver-co', context: 'If we find hazardous wiring, our residential wiring service handles rewiring projects.' },
+      { slug: 'electrical-repair-denver-co', context: 'For repairs identified during the inspection, see our electrical repair service.' },
+    ],
   },
   {
     slug: 'surge-protection-denver-co',
@@ -1151,6 +1237,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician working on a circuit breaker panel with colorful wires',
     icon: 'Shield',
+    primaryKeyword: 'whole house surge protector Denver',
+    searchIntent: 'Homeowner who wants to protect their home from power surges — often motivated by storm damage, new electronics, or insurance requirements',
     intro:
       'Power surges can destroy your appliances, electronics, and HVAC equipment in an instant. Brightwork Electrical Services installs whole-house surge protection in Denver, CO homes.',
     overview: [
@@ -1248,6 +1336,11 @@ export const services: Service[] = [
         alt: 'Opened electrical switchboard with visible wires',
       },
     ],
+    relatedServices: [
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'Surge protectors install at the panel \u2014 if yours needs upgrading, see our panel upgrade service.' },
+      { slug: 'generator-electrical-service-denver-co', context: 'Protect your backup power system too \u2014 see our generator electrical service.' },
+      { slug: 'electrical-repair-denver-co', context: 'Already experienced surge damage? Our repair service can fix damaged components.' },
+    ],
   },
   {
     slug: 'generator-electrical-service-denver-co',
@@ -1261,6 +1354,8 @@ export const services: Service[] = [
       'https://images.pexels.com/photos/18816918/pexels-photo-18816918.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Two technicians working on a power generator outdoors',
     icon: 'Power',
+    primaryKeyword: 'generator installation electrician Denver',
+    searchIntent: 'Homeowner who wants a backup generator connected to their home — needs transfer switch installation and electrical wiring',
     intro:
       'When the power goes out in Denver, a backup generator keeps your home running. Brightwork Electrical Services provides generator electrical service — including transfer switch installation, generator wiring, and connection.',
     overview: [
@@ -1358,21 +1453,28 @@ export const services: Service[] = [
         alt: 'Electrician working on circuit breaker panel with wires',
       },
     ],
+    relatedServices: [
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'Generator installation often requires panel work \u2014 see our panel upgrade service.' },
+      { slug: 'surge-protection-denver-co', context: 'Protect your generator and home with whole-home surge protection.' },
+      { slug: 'residential-electrician-denver-co', context: 'For complete home electrical services, visit our residential electrician page.' },
+    ],
   },
   {
     slug: 'electrical-troubleshooting-denver-co',
     title: 'Electrical Troubleshooting Denver CO',
     shortTitle: 'Electrical Troubleshooting',
     h1: 'Electrical Troubleshooting in Denver, CO',
-    metaTitle: 'Electrical Troubleshooting Denver, CO | Find & Fix Electrical Problems | Brightwork',
+    metaTitle: 'Electrical Troubleshooting Denver, CO | Diagnose Hidden Electrical Problems | Brightwork',
     metaDescription:
-      'Electrical troubleshooting in Denver, CO. We find and fix flickering lights, tripping breakers, power outages, and other electrical problems. Call Brightwork Electrical Services at 303-879-1513.',
+      'Electrical troubleshooting in Denver, CO. We find and fix flickering lights, tripping breakers, power outages, and other electrical problems. Call Brightwork Electrical Services at 303-621-5710.',
     heroImage:
       'https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Electrician using a multimeter to fix industrial control panel wiring',
     icon: 'Search',
+    primaryKeyword: 'electrical troubleshooting Denver',
+    searchIntent: 'Homeowner with an unknown or intermittent electrical problem — they don\'t know what\'s wrong and need professional diagnosis before any repair can happen',
     intro:
-      'Electrical problems can be hard to find and dangerous to ignore. Brightwork Electrical Services provides expert electrical troubleshooting in Denver, CO — we find the root cause and fix it right.',
+      'Some electrical problems are obvious — a broken outlet, a tripped breaker. But others are mysteries: lights that flicker sometimes, circuits that trip every few days, strange buzzing you can\'t locate. Brightwork Electrical Services specializes in diagnosing these hard-to-find problems using professional diagnostic equipment.',
     overview: [
       'When something goes wrong with your home\'s electrical system, finding the cause can be challenging. A flickering light might be caused by a loose connection, a bad switch, an overloaded circuit, or a problem at the panel. Our Denver electricians are skilled troubleshooters who use professional diagnostic tools to find the exact cause of electrical problems.',
       'We approach every troubleshooting call methodically: we listen to your description of the problem, inspect the affected components, test circuits and connections with professional equipment, and trace the issue to its source. Then we explain what we found and provide a clear plan to fix it.',
@@ -1467,6 +1569,12 @@ export const services: Service[] = [
         url: 'https://images.pexels.com/photos/8961701/pexels-photo-8961701.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
         alt: 'Construction workers assessing electrical wiring',
       },
+    ],
+    relatedServices: [
+      { slug: 'electrical-repair-denver-co', context: 'Once we\'ve diagnosed the problem, our repair service handles the fix. Often troubleshooting and repair happen in the same visit.' },
+      { slug: 'electrical-inspection-denver-co', context: 'Want a comprehensive check of your whole electrical system? See our electrical inspection service.' },
+      { slug: 'electrical-panel-upgrade-denver-co', context: 'If troubleshooting reveals a panel issue, our panel upgrade service can solve it.' },
+      { slug: 'residential-wiring-denver-co', context: 'If hidden wiring problems are the cause, our wiring service handles rewiring and wiring repair.' },
     ],
   },
 ];

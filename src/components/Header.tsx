@@ -119,6 +119,12 @@ export default function Header() {
                 About
               </Link>
               <Link
+                to="/reviews"
+                className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
+              >
+                Reviews
+              </Link>
+              <Link
                 to="/contact"
                 className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
               >
