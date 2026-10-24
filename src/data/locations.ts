@@ -49,7 +49,7 @@ export const locations: LocationData[] = [
     fullName: 'Aurora, Colorado',
     metaTitle: 'Electrician Aurora, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Aurora, CO. Brightwork Electrical Services provides residential electrical repairs, panel upgrades, wiring, lighting, and EV charger installation. Call 303-621-5710.',
+      'Electrician in Aurora, CO. Brightwork Electrical Services provides residential electrical repairs, panel upgrades, wiring, lighting, and EV charger installation. Call 303-879-1513.',
     h1: 'Electrician in Aurora, CO',
     heroImage: 'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Residential neighborhood in Aurora, Colorado at sunset with Rocky Mountain views',
@@ -58,7 +58,7 @@ export const locations: LocationData[] = [
     description: [
       'Aurora is one of the largest and most diverse cities in the Denver metro area, and its homes span every era of construction — from mid-century ranches in Original Aurora to modern builds in Sterling Hills and Saddle Rock. No matter the age or style of your Aurora home, our electricians have the experience to handle your electrical needs.',
       'We serve homeowners across Aurora, including neighborhoods like Cherry Creek, Heather Gardens, Aurora Highlands, Mission Viejo, Eagle Watch, and Murphy Creek. Whether you need a simple outlet repair, a full panel upgrade, or wiring for a home addition, we bring the same level of professionalism and attention to every job.',
-      'As a Denver-based electrical contractor, we\'re just minutes away from Aurora. We respond quickly to service calls and offer same-day appointments for many repairs. Call 303-621-5710 to schedule electrical service at your Aurora home.',
+      'As a Denver-based electrical contractor, we\'re just minutes away from Aurora. We respond quickly to service calls and offer same-day appointments for many repairs. Call 303-879-1513 to schedule electrical service at your Aurora home.',
     ],
     neighborhoods: [
       'Original Aurora',
@@ -126,7 +126,7 @@ export const locations: LocationData[] = [
     fullName: 'Lakewood, Colorado',
     metaTitle: 'Electrician Lakewood, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Lakewood, CO. Residential electrical repairs, panel upgrades, lighting installation, wiring, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Lakewood, CO. Residential electrical repairs, panel upgrades, lighting installation, wiring, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Lakewood, CO',
     heroImage: 'https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Residential street in Lakewood, Colorado with mature trees and mountain backdrop',
@@ -135,7 +135,7 @@ export const locations: LocationData[] = [
     description: [
       'Lakewood sits just west of Denver and is home to a wide variety of residential neighborhoods, from the established streets near Belmar to the foothills communities around Green Mountain. Our electricians serve Lakewood homeowners with the full range of residential electrical services.',
       'We work in neighborhoods throughout Lakewood, including Belmar, Green Mountain, Applewood, Lakewood Estates, Eiber, and the areas near Colorado Christian University. Whether your Lakewood home needs a simple repair or a major electrical upgrade, we have the skills and experience to get it done right.',
-      'Lakewood\'s mix of older and newer homes means we see everything from fuse box replacements in mid-century homes to EV charger installations in new construction. Call 303-621-5710 to schedule electrical service at your Lakewood home.',
+      'Lakewood\'s mix of older and newer homes means we see everything from fuse box replacements in mid-century homes to EV charger installations in new construction. Call 303-879-1513 to schedule electrical service at your Lakewood home.',
     ],
     neighborhoods: [
       'Belmar',
@@ -198,7 +198,7 @@ export const locations: LocationData[] = [
     fullName: 'Littleton, Colorado',
     metaTitle: 'Electrician Littleton, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Littleton, CO. Residential electrical service, repairs, panel upgrades, lighting, and wiring from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Littleton, CO. Residential electrical service, repairs, panel upgrades, lighting, and wiring from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Littleton, CO',
     heroImage: 'https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Charming residential neighborhood in Littleton, Colorado with historic homes',
@@ -207,7 +207,7 @@ export const locations: LocationData[] = [
     description: [
       'Littleton combines historic charm with modern suburban living, and its homes reflect that range — from century-old houses in downtown Littleton to contemporary builds near Highlands Ranch. Our electricians understand the electrical needs of Littleton homes across every era.',
       'We serve neighborhoods throughout Littleton, including downtown Littleton, Columbine, Ken Caryl, Roxborough, Chatfield, and the areas along the Platte River. Whether you need an electrical repair, a panel upgrade, or new lighting installation, we deliver quality workmanship on every job.',
-      'Littleton\'s older homes often need electrical updates — panel upgrades, wiring replacement, GFCI installation — while newer homes frequently need EV chargers, additional circuits, or lighting upgrades. Call 303-621-5710 to schedule service at your Littleton home.',
+      'Littleton\'s older homes often need electrical updates — panel upgrades, wiring replacement, GFCI installation — while newer homes frequently need EV chargers, additional circuits, or lighting upgrades. Call 303-879-1513 to schedule service at your Littleton home.',
     ],
     neighborhoods: [
       'Downtown Littleton',
@@ -269,7 +269,7 @@ export const locations: LocationData[] = [
     fullName: 'Englewood, Colorado',
     metaTitle: 'Electrician Englewood, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Englewood, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Englewood, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Englewood, CO',
     heroImage: 'https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Residential neighborhood in Englewood, Colorado with tree-lined streets',
@@ -278,7 +278,7 @@ export const locations: LocationData[] = [
     description: [
       'Englewood is a close-in Denver suburb with a mix of mid-century homes, newer construction, and everything in between. Our electricians serve Englewood homeowners with the full range of residential electrical services, from quick repairs to major upgrades.',
       'We work throughout Englewood, including neighborhoods near the Swedish Medical Center, the areas around Belleview and Hampden, and the residential streets close to downtown Englewood. Our team is familiar with the common electrical issues in Englewood homes and how to address them effectively.',
-      'Because Englewood is so close to Denver, we can respond quickly to service calls. Whether you need an emergency repair or a planned upgrade, call 303-621-5710 to schedule.',
+      'Because Englewood is so close to Denver, we can respond quickly to service calls. Whether you need an emergency repair or a planned upgrade, call 303-879-1513 to schedule.',
     ],
     neighborhoods: [
       'Downtown Englewood',
@@ -338,7 +338,7 @@ export const locations: LocationData[] = [
     fullName: 'Centennial, Colorado',
     metaTitle: 'Electrician Centennial, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Centennial, CO. Residential electrical repairs, panel upgrades, lighting, wiring, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Centennial, CO. Residential electrical repairs, panel upgrades, lighting, wiring, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Centennial, CO',
     heroImage: 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Modern suburban homes in Centennial, Colorado with well-maintained landscaping',
@@ -347,7 +347,7 @@ export const locations: LocationData[] = [
     description: [
       'Centennial is a relatively young city with mostly newer homes, but even modern electrical systems need repairs, upgrades, and additions. Our electricians serve Centennial homeowners with services ranging from outlet repair to EV charger installation and panel upgrades.',
       'We serve neighborhoods throughout Centennial, including the areas near Arapahoe Road, the residential communities around the Streets of SouthGlenn, and the neighborhoods bordering Highlands Ranch and Lone Tree. Our team is ready to handle any residential electrical need in your Centennial home.',
-      'Many Centennial homeowners are adding EV chargers, upgrading lighting, and installing smart home devices — all of which require professional electrical work. Call 303-621-5710 to schedule service at your Centennial home.',
+      'Many Centennial homeowners are adding EV chargers, upgrading lighting, and installing smart home devices — all of which require professional electrical work. Call 303-879-1513 to schedule service at your Centennial home.',
     ],
     neighborhoods: [
       'SouthGlenn',
@@ -408,7 +408,7 @@ export const locations: LocationData[] = [
     fullName: 'Thornton, Colorado',
     metaTitle: 'Electrician Thornton, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Thornton, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Thornton, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Thornton, CO',
     heroImage: 'https://images.pexels.com/photos/1543413/pexels-photo-1543413.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Suburban homes in Thornton, Colorado with Front Range mountain views',
@@ -417,7 +417,7 @@ export const locations: LocationData[] = [
     description: [
       'Thornton is a growing city north of Denver with a mix of established neighborhoods and new developments. Our electricians serve Thornton homeowners with the complete range of residential electrical services, from troubleshooting and repair to major installation projects.',
       'We work throughout Thornton, including neighborhoods near 120th Avenue, the communities around Trail Winds, and the residential areas bordering Westminster and Northglenn. Whether you need a quick repair or a whole-home electrical upgrade, we\'re ready to help.',
-      'As Thornton continues to grow, many homeowners are adding EV chargers, upgrading panels, and installing new lighting. Call 303-621-5710 to schedule electrical service at your Thornton home.',
+      'As Thornton continues to grow, many homeowners are adding EV chargers, upgrading panels, and installing new lighting. Call 303-879-1513 to schedule electrical service at your Thornton home.',
     ],
     neighborhoods: [
       'Trail Winds',
@@ -478,7 +478,7 @@ export const locations: LocationData[] = [
     fullName: 'Westminster, Colorado',
     metaTitle: 'Electrician Westminster, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Westminster, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Westminster, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Westminster, CO',
     heroImage: 'https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Suburban neighborhood in Westminster, Colorado with mature landscaping',
@@ -487,7 +487,7 @@ export const locations: LocationData[] = [
     description: [
       'Westminster sits northwest of Denver and features a blend of established neighborhoods and newer communities. Our electricians serve Westminster homeowners with everything from outlet repair to panel upgrades and whole-home wiring projects.',
       'We serve neighborhoods across Westminster, including areas near Westminster Station, the communities around The Orchard, and the residential streets bordering Broomfield and Thornton. Our team brings the same quality workmanship to every Westminster job.',
-      'Many Westminster homes built in the 1980s and 90s are reaching the age where panel upgrades and wiring updates make sense. Call 303-621-5710 to schedule service at your Westminster home.',
+      'Many Westminster homes built in the 1980s and 90s are reaching the age where panel upgrades and wiring updates make sense. Call 303-879-1513 to schedule service at your Westminster home.',
     ],
     neighborhoods: [
       'Westminster Station',
@@ -548,7 +548,7 @@ export const locations: LocationData[] = [
     fullName: 'Arvada, Colorado',
     metaTitle: 'Electrician Arvada, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Arvada, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Arvada, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Arvada, CO',
     heroImage: 'https://images.pexels.com/photos/2816323/pexels-photo-2816323.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Charming Olde Town Arvada street with historic buildings and mountain views',
@@ -557,7 +557,7 @@ export const locations: LocationData[] = [
     description: [
       'Arvada blends historic charm in Olde Town with growing newer communities to the west. Our electricians serve Arvada homeowners with comprehensive residential electrical services, from repairs in older homes to installations in new construction.',
       'We work throughout Arvada, including Olde Town, the neighborhoods near the Arvada Center, Candelas, Leyden Rock, and the areas bordering Wheat Ridge and Westminster. Whether you need electrical repair, a panel upgrade, or lighting installation, we deliver quality work.',
-      'Arvada\'s older homes near Olde Town often need electrical updates, while the newer communities in Candelas and Leyden Rock frequently need EV chargers and custom lighting. Call 303-621-5710 to schedule service at your Arvada home.',
+      'Arvada\'s older homes near Olde Town often need electrical updates, while the newer communities in Candelas and Leyden Rock frequently need EV chargers and custom lighting. Call 303-879-1513 to schedule service at your Arvada home.',
     ],
     neighborhoods: [
       'Olde Town Arvada',
@@ -618,7 +618,7 @@ export const locations: LocationData[] = [
     fullName: 'Highlands Ranch, Colorado',
     metaTitle: 'Electrician Highlands Ranch, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Highlands Ranch, CO. Residential electrical repairs, panel upgrades, lighting, EV chargers, and more from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Highlands Ranch, CO. Residential electrical repairs, panel upgrades, lighting, EV chargers, and more from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Highlands Ranch, CO',
     heroImage: 'https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Spacious suburban homes in Highlands Ranch, Colorado with mountain backdrop',
@@ -627,7 +627,7 @@ export const locations: LocationData[] = [
     description: [
       'Highlands Ranch is a large planned community south of Denver with homes built primarily from the 1990s onward. While these homes are relatively new, many are reaching the age where panel upgrades, EV charger installations, and lighting updates are common requests.',
       'We serve all of Highlands Ranch, including the villages of Westridge, Northridge, Southridge, Eastridge, and Backcountry. Our electricians are familiar with the electrical systems and panel types common in Highlands Ranch homes.',
-      'Highlands Ranch homeowners frequently add EV chargers, install outdoor lighting, upgrade panels for additional capacity, and add circuits for home additions. Call 303-621-5710 to schedule service at your Highlands Ranch home.',
+      'Highlands Ranch homeowners frequently add EV chargers, install outdoor lighting, upgrade panels for additional capacity, and add circuits for home additions. Call 303-879-1513 to schedule service at your Highlands Ranch home.',
     ],
     neighborhoods: [
       'Westridge',
@@ -689,7 +689,7 @@ export const locations: LocationData[] = [
     fullName: 'Parker, Colorado',
     metaTitle: 'Electrician Parker, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Parker, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Parker, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Parker, CO',
     heroImage: 'https://images.pexels.com/photos/1876045/pexels-photo-1876045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Spacious homes on large lots in Parker, Colorado with rolling prairie views',
@@ -698,7 +698,7 @@ export const locations: LocationData[] = [
     description: [
       'Parker is a growing town southeast of Denver known for its spacious homes and rural-suburban feel. Our electricians serve Parker homeowners with the full range of residential electrical services, from repairs and troubleshooting to panel upgrades and new installations.',
       'We work throughout Parker, including neighborhoods like Stonegate, Canterberry Crossing, Idyllwilde, Pinery, and Rowley Downs. Whether you need a simple electrical repair or a major installation, we deliver professional results.',
-      'Parker homes often have larger footprints and more extensive electrical systems, including well pumps, outbuildings, and large HVAC systems. Call 303-621-5710 to schedule service at your Parker home.',
+      'Parker homes often have larger footprints and more extensive electrical systems, including well pumps, outbuildings, and large HVAC systems. Call 303-879-1513 to schedule service at your Parker home.',
     ],
     neighborhoods: [
       'Stonegate',
@@ -759,7 +759,7 @@ export const locations: LocationData[] = [
     fullName: 'Castle Rock, Colorado',
     metaTitle: 'Electrician Castle Rock, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Castle Rock, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Castle Rock, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Castle Rock, CO',
     heroImage: 'https://images.pexels.com/photos/2157404/pexels-photo-2157404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Castle Rock, Colorado homes with the iconic Castle Rock butte in the background',
@@ -768,7 +768,7 @@ export const locations: LocationData[] = [
     description: [
       'Castle Rock is a growing community south of Denver, known for its namesake butte and mix of newer homes and established neighborhoods. Our electricians serve Castle Rock homeowners with comprehensive residential electrical services.',
       'We work throughout Castle Rock, including neighborhoods like The Meadows, Red Hawk, Founders Village, Terrain, and Crystal Valley. Whether you need an electrical repair, a panel upgrade, or new lighting installation, we provide quality workmanship.',
-      'Castle Rock\'s rapid growth means many homes are relatively new, but electrical needs still arise — from EV charger installations to panel upgrades and outdoor lighting for the area\'s many hillside homes. Call 303-621-5710 to schedule service at your Castle Rock home.',
+      'Castle Rock\'s rapid growth means many homes are relatively new, but electrical needs still arise — from EV charger installations to panel upgrades and outdoor lighting for the area\'s many hillside homes. Call 303-879-1513 to schedule service at your Castle Rock home.',
     ],
     neighborhoods: [
       'The Meadows',
@@ -829,7 +829,7 @@ export const locations: LocationData[] = [
     fullName: 'Broomfield, Colorado',
     metaTitle: 'Electrician Broomfield, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Broomfield, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Broomfield, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Broomfield, CO',
     heroImage: 'https://images.pexels.com/photos/1974596/pexels-photo-1974596.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Modern suburban neighborhood in Broomfield, Colorado with Flatirons visible',
@@ -838,7 +838,7 @@ export const locations: LocationData[] = [
     description: [
       'Broomfield sits between Denver and Boulder and features a mix of established neighborhoods and newer communities. Our electricians serve Broomfield homeowners with the complete range of residential electrical services.',
       'We serve neighborhoods across Broomfield, including areas near the Flatiron Crossing, the communities around Interlocken, and the residential areas bordering Westminster and Louisville. Our team delivers quality work on every Broomfield project.',
-      'Many Broomfield homes are reaching the age where panel upgrades and wiring updates are relevant, while newer homes frequently need EV chargers and smart home wiring. Call 303-621-5710 to schedule service at your Broomfield home.',
+      'Many Broomfield homes are reaching the age where panel upgrades and wiring updates are relevant, while newer homes frequently need EV chargers and smart home wiring. Call 303-879-1513 to schedule service at your Broomfield home.',
     ],
     neighborhoods: [
       'Flatiron Crossing',
@@ -899,7 +899,7 @@ export const locations: LocationData[] = [
     fullName: 'Golden, Colorado',
     metaTitle: 'Electrician Golden, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Golden, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Golden, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Golden, CO',
     heroImage: 'https://images.pexels.com/photos/2086361/pexels-photo-2086361.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Historic downtown Golden, Colorado with Lookout Mountain in the background',
@@ -908,7 +908,7 @@ export const locations: LocationData[] = [
     description: [
       'Golden is a historic city at the foothills of the Rockies, home to a mix of older homes near downtown and newer properties in the surrounding hills. Our electricians serve Golden homeowners with comprehensive residential electrical services.',
       'We work throughout Golden, including downtown Golden, the neighborhoods near the Colorado School of Mines, Apple Valley, Genesee, and the areas along Lookout Mountain. Golden\'s varied terrain and home styles require an electrician who can adapt to different electrical systems.',
-      'Golden\'s older homes near downtown often need electrical updates, while the hillside properties may require specialized wiring for steep terrain and weather exposure. Call 303-621-5710 to schedule service at your Golden home.',
+      'Golden\'s older homes near downtown often need electrical updates, while the hillside properties may require specialized wiring for steep terrain and weather exposure. Call 303-879-1513 to schedule service at your Golden home.',
     ],
     neighborhoods: [
       'Downtown Golden',
@@ -969,7 +969,7 @@ export const locations: LocationData[] = [
     fullName: 'Boulder, Colorado',
     metaTitle: 'Electrician Boulder, CO | Brightwork Electrical Services',
     metaDescription:
-      'Electrician in Boulder, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-621-5710.',
+      'Electrician in Boulder, CO. Residential electrical repairs, panel upgrades, wiring, lighting, and EV chargers from Brightwork Electrical Services. Call 303-879-1513.',
     h1: 'Electrician in Boulder, CO',
     heroImage: 'https://images.pexels.com/photos/2422588/pexels-photo-2422588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroAlt: 'Boulder, Colorado residential area with Flatirons rock formations in background',
@@ -978,7 +978,7 @@ export const locations: LocationData[] = [
     description: [
       'Boulder is known for its unique character, outdoor lifestyle, and mix of historic and contemporary homes. Our electricians serve Boulder homeowners with the full range of residential electrical services, from repairs in older homes to installations in new construction.',
       'We serve neighborhoods throughout Boulder, including Table Mesa, Martin Acres, Newlands, Whittier, and the areas near the University of Colorado. Boulder\'s homes range from century-old properties to cutting-edge modern builds, and our electricians have the versatility to handle them all.',
-      'Boulder homeowners frequently request EV charger installations, energy-efficient lighting upgrades, and panel upgrades to support solar and other modern electrical needs. Call 303-621-5710 to schedule service at your Boulder home.',
+      'Boulder homeowners frequently request EV charger installations, energy-efficient lighting upgrades, and panel upgrades to support solar and other modern electrical needs. Call 303-879-1513 to schedule service at your Boulder home.',
     ],
     neighborhoods: [
       'Table Mesa',
